@@ -1,7 +1,7 @@
 $(function(){
 
     var ul = $('#upload ul');
-
+     console.log("Testing");
     $('#drop a').click(function(){
         // Simulate a click on the file input button
         // to show the file browser dialog

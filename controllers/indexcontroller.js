@@ -262,4 +262,8 @@ module.exports=function (app, con) {
         req.session.online=false;
         res.render('index',{data:1});
     });
+
+    app.post('/testing', function(req,res){
+        console.log("I am here for testing");
+    });
 };
